@@ -1,0 +1,61 @@
+<head>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <h1 class="title">your informations</h1>
+    <p class="description">
+        please fill out the form below about yourself
+    </p>
+    
+    <form class="user-form" action="form.html" method="post">
+        <div class="name">
+            <label for="first-name">first name</label>
+            <input type="text">
+            <label for="last-name">last name</label>
+            <input type="text">
+        </div>
+
+        <div class="email">
+            <label for="email">email</label>
+            <input type="text">
+        </div>
+
+        <div>
+            <label for="age">age</label>
+            <input type="number">
+        </div>
+        <div>
+            <label for="eye-color">eye-color</label>
+            <select name="eye-color" id="eye-color">
+                <option value="1">brown</option>
+                <option value="2">black</option>
+                <option value="3">blue</option>
+                <option value="4">green</option>
+            </select>
+        </div>
+        <div>
+            <p class="activities-label">what do you like to do, select all that applies</p>
+            <label for="cooking">cooking</label>
+            <input type="checkbox" value="cooking">
+
+            <label for="hiking">hiking</label>
+            <input type="checkbox" value="hiking">
+
+            <label for="singing">singing</label>
+            <input type="checkbox" value="singing">
+
+            <label for="drawing">drawing</label>
+            <input type="checkbox" value="drawing">
+        </div>
+        
+        <div>
+            <p>comments</p>
+            <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+        </div>
+
+        <button id="submit" type="submit">submit</button>
+            
+
+    </form>
+</body>

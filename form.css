@@ -1,0 +1,40 @@
+
+body{
+    background-image: url("https://www.simplilearn.com/ice9/free_resources_article_thumb/prop2.JPG");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+h1{
+    text-align: center;
+    text-transform: capitalize;
+    color: white;
+    text-shadow: rgb(2, 24, 2) 1px 1px 2px;
+}
+p{
+    text-align: center;
+
+}
+
+.name{
+    display: flex;
+}
+
+.naem label{
+
+}
+
+.email{
+    
+}
+.name input{
+    width: 30%;
+}
+
+.user-form{
+    background-color: rgb(147, 177, 177);
+    padding: 3%;
+    margin: 5%;
+
+}
