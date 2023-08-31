@@ -3,7 +3,8 @@
 body{
     background-image: url("https://www.simplilearn.com/ice9/free_resources_article_thumb/prop2.JPG");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
+    background-position: center;
 
 }
 
@@ -23,10 +24,7 @@ p{
     display: flex;
 }
 
-.email{
-    
-}
-.form-group input, .form-group select{
+.name .form-group, .form-group input, .form-group select, .form-group .comments{
     width: 100%;
 }
 
