@@ -24,7 +24,7 @@ p{
     display: flex;
 }
 
-.name .form-group, .form-group input, .form-group select, .form-group .comments{
+.name .form-group, .form-group input, .form-group select, .form-group #comments{
     width: 100%;
 }
 
