@@ -10,23 +10,26 @@
     </p> 
     
     <form class="user-form" action="form.html" method="post">
-        <div class="name">
-            <label for="first-name">first name</label>
-            <input type="text">
-            <label for="last-name">last name</label>
-            <input type="text">
+        <div class="name form-group">
+            <div class="form-group">
+                <label for="first-name">first name</label>
+                <input type="text">
+            </div>
+            <div class="form-group">
+                <label for="last-name">last name</label>
+                <input type="text">
+            </div>
         </div>
-
-        <div class="email">
+        <div class="form-group email">
             <label for="email">email</label>
             <input type="text">
         </div>
 
-        <div>
+        <div class="form-group">
             <label for="age">age</label>
             <input type="number">
         </div>
-        <div>
+        <div class="form-group">
             <label for="eye-color">eye-color</label>
             <select name="eye-color" id="eye-color">
                 <option value="1">brown</option>
@@ -50,7 +53,7 @@
             <input type="checkbox" value="drawing">
         </div>
         
-        <div>
+        <div class="form-group">
             <p>comments</p>
             <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
         </div>
