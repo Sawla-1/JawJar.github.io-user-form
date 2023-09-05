@@ -5,6 +5,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    /* height: 100%; */
 
 }
 
@@ -34,4 +35,11 @@ p{
     margin: 5%;
     text-transform: capitalize;
 
+}
+
+.first, .last{
+    width: 50%;
+}
+#activities label{
+    display: block;
 }
